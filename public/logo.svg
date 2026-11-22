@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CropDoc">
+  <rect width="64" height="64" rx="14" fill="#0f3b2e"/>
+  <ellipse cx="28" cy="30" rx="16" ry="19" fill="#10a36b"/>
+  <path d="M28 14v34M28 26c-4-3-8-3-11-1M28 34c4-3 8-3 11-1M28 40c-3-2-6-2-9-1" stroke="#fff" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+  <circle cx="45" cy="45" r="12" fill="#00855d" stroke="#0f3b2e" stroke-width="3"/>
+  <path d="M45 39v12M39 45h12" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+</svg>

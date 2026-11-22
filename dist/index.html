@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CropDoc by Foxicama Tech</title>
+  <meta name="description" content="Snap a sick plant. Get help, even with no data. Hybrid on-device and cloud AI for Nigerian farmers." />
+  <meta name="theme-color" content="#0f3b2e" />
+  <!-- Paste your Chrome Prompt API origin-trial token here before deploying (not needed on localhost). -->
+  <meta http-equiv="origin-trial" content="PASTE_ORIGIN_TRIAL_TOKEN" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Falls back to system fonts when offline. -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" />
+  <script type="module" crossorigin src="/assets/index-D-QndVoK.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-Dm3y8Rin.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <img src="/logo.svg" alt="" width="40" height="40" />
+      <span>
+        <strong>Crop<em>Doc</em></strong>
+        <small>Snap a sick plant. Get help, even with no data.</small>
+      </span>
+    </a>
+    <nav class="tabs" aria-label="Main">
+      <a href="#/" data-nav="diagnose">Diagnose</a>
+      <a href="#/history" data-nav="history">My Checks</a>
+    </nav>
+    <div class="topbar-right">
+      <span id="engine-pill" class="pill" role="status" aria-live="polite"></span>
+      <label class="lang">
+        <span class="sr-only">Answer language</span>
+        <select id="lang">
+          <option>English</option>
+          <option>Nigerian Pidgin</option>
+          <option>Hausa</option>
+          <option>Yoruba</option>
+          <option>Igbo</option>
+        </select>
+      </label>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="footer">
+    <span><img src="/logo.svg" alt="" width="20" height="20" /> CropDoc by Foxicama Tech</span>
+    <span>Guidance, not a guarantee. For serious outbreaks, see your nearest ADP extension officer.</span>
+  </footer>
+
+</body>
+</html>
